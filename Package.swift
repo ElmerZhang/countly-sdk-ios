@@ -57,7 +57,8 @@ let package = Package(
             ]),
         .testTarget(
             name: "CountlyTests",
-            dependencies: ["Countly"]
+            dependencies: ["Countly"],
+            path: "CountlyTests"
         ),
     ]
 )
